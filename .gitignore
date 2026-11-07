@@ -1,0 +1,41 @@
+
+# Python virtual environments
+.venv/
+venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Next.js and Node
+**/node_modules/
+**/.next/
+**/out/
+**/build/
+
+# Dataset and experiment outputs
+outputs/
+data/
+datasets/
+
+# Model weights and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Python and application logs
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
